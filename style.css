@@ -78,3 +78,25 @@ h1 {
 	margin-top: -5px;
 }
 
+h2 {
+	font-size: 36px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	margin-bottom: 50px;
+}
+
+.images {
+	max-width: 170px;
+	display: flex;
+	flex-direction: column;
+}
+
+.image-subtext {
+	text-align: center;
+}
