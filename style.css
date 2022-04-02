@@ -108,6 +108,8 @@ h2 {
 .quote-section {
 	background-color: #E5E7EB;
 	padding: 150px;
+	display: flex;
+	flex-direction: column;
 }
 
 .quote {
@@ -116,16 +118,18 @@ h2 {
 	font-style: italic;
 	font-weight: 100;
 	text-align: justify;
-	margin-left: 180px;
-	margin-right: 180px;
+	margin-left: 400px;
+	margin-right: 400px;
 	font-family: sans-serif;
+	min-width: 400px;
 }
 
 .quote-signature {
 	font-size: 20px;
 	font-weight: bold;
-	margin-left: 180px;
-	margin-right: 180px;
+	margin-left: 400px;
+	margin-right: 400px;
 	text-align: right;
 	font-family: sans-serif;
+	min-width: 400px;
 }
