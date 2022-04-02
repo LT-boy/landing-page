@@ -1,3 +1,7 @@
+body {
+	font-family: sans-serif;
+}
+
 .header, .hero{
 	background-color: #1F2937;
 	color: white;
@@ -99,4 +103,29 @@ h2 {
 
 .image-subtext {
 	text-align: center;
+}
+
+.quote-section {
+	background-color: #E5E7EB;
+	padding: 150px;
+}
+
+.quote {
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	font-weight: 100;
+	text-align: justify;
+	margin-left: 180px;
+	margin-right: 180px;
+	font-family: sans-serif;
+}
+
+.quote-signature {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 180px;
+	margin-right: 180px;
+	text-align: right;
+	font-family: sans-serif;
 }
