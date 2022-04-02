@@ -9,6 +9,8 @@ body {
 	justify-content: space-between;
 }
 
+/*Header*/
+
 .header {
 	padding-bottom: 50px;
 }
@@ -43,6 +45,8 @@ a {
 	text-decoration: none;
 	color: #E5E7EB;
 }
+
+/*Hero section*/
 
 h1 {
 	font-size: 48px;
@@ -82,6 +86,8 @@ h1 {
 	margin-top: -5px;
 }
 
+/*Information and images section*/
+
 h2 {
 	font-size: 36px;
 	font-weight: 900;
@@ -104,6 +110,8 @@ h2 {
 .image-subtext {
 	text-align: center;
 }
+
+/*Quote section*/
 
 .quote-section {
 	background-color: #E5E7EB;
@@ -133,3 +141,33 @@ h2 {
 	font-family: sans-serif;
 	min-width: 400px;
 }
+
+
+/*Call to action section*/
+
+.call-to-action-container {
+	display: flex;
+	margin: 100px 400px;
+	padding: 50px 50px;
+	justify-content: center;
+	background-color: #3882F6;
+	color: white;
+	border-radius: 10px;
+	gap: 150px;
+}
+
+.button-sign-up-2 {
+	color: white;
+	background-color: #3882F6;
+	border-color: white;
+	border-radius: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.call-to-action-text-1 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
